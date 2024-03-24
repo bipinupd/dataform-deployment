@@ -1,0 +1,11 @@
+{
+    "defaultSchema": "example1",
+    "assertionSchema": "dataform_assertions",
+    "warehouse": "bigquery",
+    "defaultDatabase": "${PROJECT_ID}",
+    "defaultLocation": "us-central1",
+    "vars": {
+      "STAGING_SCHEMA": "stage",
+      "REPORTING_SCHEMA": "report"
+    }
+  }
