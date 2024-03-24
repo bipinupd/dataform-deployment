@@ -1,4 +1,5 @@
 #!/bin/bash
-dataform install 
+echo 'Example'
 echo '{"projectId": "${PROJECT_ID}", "location": "us"}' > .df-credentials.json
+dataform install 
 datafrom run
