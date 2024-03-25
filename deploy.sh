@@ -6,7 +6,7 @@ cat << EOF >> dataform.json
     "defaultSchema": "example1",
     "assertionSchema": "dataform_assertions",
     "warehouse": "bigquery",
-    "defaultDatabase": "${PROJECT_ID}",
+    "defaultDatabase": "$PROJECT_ID",
     "defaultLocation": "us-central1",
     "vars": {
       "STAGING_SCHEMA": "stage",
