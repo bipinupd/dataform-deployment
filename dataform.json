@@ -2,7 +2,7 @@
     "defaultSchema": "example1",
     "assertionSchema": "dataform_assertions",
     "warehouse": "bigquery",
-    "defaultDatabase": "${PROJECT_ID}",
+    "defaultDatabase": "bipin-dev-prj",
     "defaultLocation": "us-central1",
     "vars": {
       "STAGING_SCHEMA": "stage",
