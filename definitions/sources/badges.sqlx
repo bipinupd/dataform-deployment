@@ -1,5 +1,5 @@
 config {
-    type: "decleration",
+    type: "declaration",
     database: "bigquery-public-data",
     schema: "stackoverflow",
     name: "badges",
