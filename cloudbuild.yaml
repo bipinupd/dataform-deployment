@@ -7,6 +7,5 @@ steps:
     - |
         npm i -g -quiet @dataform/cli \
         && npm i -g envsub \ 
-        && envsubst < dataform.json > dataform.json \
         && envsubst < deploy.sh > deploy.sh \
         && sh deploy.sh
