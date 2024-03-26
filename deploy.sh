@@ -1,4 +1,7 @@
 #!/bin/bash
+export PROJECT_ID=$PROJECT_ID
+export LOCATION=$_BQ_LOCATION
+
 echo "{\"projectId\": \"bipin-dev-prj\", \"location\": \"US\"}" > .df-credentials.json
 cat << EOF > dataform.json
  {
@@ -6,7 +9,7 @@ cat << EOF > dataform.json
     "assertionSchema": "dataform_assertions",
     "warehouse": "bigquery",
     "defaultDatabase": "$PROJECT_ID",
-    "defaultLocation": "us-central1",
+    "defaultLocation": "$LOCATION",
     "vars": {
       "STAGING_SCHEMA": "stage",
       "REPORTING_SCHEMA": "report"
