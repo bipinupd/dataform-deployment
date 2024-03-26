@@ -2,7 +2,7 @@
 export PROJECT_ID=$1
 export LOCATION=$2
 
-echo "{\"projectId\": \"bipin-dev-prj\", \"location\": \"US\"}" > .df-credentials.json
+echo "{\"projectId\": \"$PROJECT_ID\", \"location\": \"$LOCATION\"}" > .df-credentials.json
 cat << EOF > dataform.json
  {
     "defaultSchema": "example1",
