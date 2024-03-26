@@ -14,6 +14,7 @@ cat << EOF > dataform.json
   }
 EOF
 cat .df-credentials.json
+cat dataform.json
 npm i -g -quiet @dataform/cli
 dataform install 
 dataform run
