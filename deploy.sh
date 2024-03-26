@@ -5,7 +5,7 @@ export LOCATION=$2
 echo "{\"projectId\": \"$PROJECT_ID\", \"location\": \"$LOCATION\"}" > .df-credentials.json
 cat << EOF > dataform.json
  {
-    "defaultSchema": "example1",
+    "defaultSchema": "",
     "assertionSchema": "dataform_assertions",
     "warehouse": "bigquery",
     "defaultDatabase": $PROJECT_ID,
