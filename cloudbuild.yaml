@@ -5,4 +5,4 @@ steps:
     args:
     - '-c'
     - |
-        sh deploy.sh $PROJECT_ID
+        sh deploy.sh $PROJECT_ID $_BQ_LOCATION
