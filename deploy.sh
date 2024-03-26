@@ -8,8 +8,8 @@ cat << EOF > dataform.json
     "defaultSchema": "",
     "assertionSchema": "dataform_assertions",
     "warehouse": "bigquery",
-    "defaultDatabase": $PROJECT_ID,
-    "defaultLocation": $LOCATION,
+    "defaultDatabase": "$PROJECT_ID",
+    "defaultLocation": "$LOCATION",
     "vars": {
       "STAGING_SCHEMA": "stage",
       "REPORTING_SCHEMA": "report"
