@@ -3,7 +3,7 @@
     "assertionSchema": "dataform_assertions",
     "warehouse": "bigquery",
     "defaultDatabase": "bipin-dev-prj",
-    "defaultLocation": "us",
+    "defaultLocation": "US",
     "vars": {
       "STAGING_SCHEMA": "stage",
       "REPORTING_SCHEMA": "report"
