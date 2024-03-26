@@ -1,6 +1,6 @@
 #!/bin/bash
-export PROJECT_ID=$PROJECT_ID
-export LOCATION=$_BQ_LOCATION
+export PROJECT_ID=$1
+export LOCATION=$2
 
 echo "{\"projectId\": \"bipin-dev-prj\", \"location\": \"US\"}" > .df-credentials.json
 cat << EOF > dataform.json
