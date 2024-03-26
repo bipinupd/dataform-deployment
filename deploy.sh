@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "{\"projectId\": \"$PROJECT_ID\", \"location\": \"$_BQ_LOCATION\"}" > .df-credentials.json
+echo "{\"projectId\": \"bipin-dev-prj\", \"location\": \"US\"}" > .df-credentials.json
 cat .df-credentials.json
 npm i -g -quiet @dataform/cli
 dataform install 
