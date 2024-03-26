@@ -1,9 +1,9 @@
 {
-    "defaultSchema": "example1",
+    "defaultSchema": "",
     "assertionSchema": "dataform_assertions",
     "warehouse": "bigquery",
-    "defaultDatabase": "bipin-dev-prj",
-    "defaultLocation": "US",
+    "defaultDatabase": "$PROJECT_ID",
+    "defaultLocation": "$LOCATION",
     "vars": {
       "STAGING_SCHEMA": "stage",
       "REPORTING_SCHEMA": "report"
