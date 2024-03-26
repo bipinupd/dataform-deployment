@@ -5,4 +5,4 @@ steps:
     args:
     - '-c'
     - |
-        sh deploy.sh
+        sh deploy.sh $PROJECT_ID
